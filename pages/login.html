@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AMS</title>
+
+    <link rel="icon" href="../favicon.png" type="image/png" sizes="16x16 32x32">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1><a id="BBClink" href="index.php"><i class="fas fa-globe-europe"></i>AMS</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="category.php?name=Sport"><i class="fas fa-running"></i><span>Sport</span></a></li>
+                    <li><a href="category.php?name=Show"><i class="fas fa-money-bill-alt"></i><span>Show</span></a></li>
+                    <li><a href="category.php?name=Science"><i class="fas fa-flask"></i><span>Science</span></a></li>
+                    <li><a href="administration.php"><i class="fas fa-file-alt"></i><span>Admin</span></a></li>
+                    <li><a href="login.html"><i class="fas fa-sign-in-alt"></i><span>Sign in</span></a></li>
+                    <li><a href="newArticle.html"><i class="fas fa-file-alt"></i><span>New article</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h2>Login</h2>
+
+            <form>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" class="form-control" aria-describedby="basic-addon1" >
+                <div id="noUsernameAlert" class="alert alert-primary collapse" role="alert">
+                    Username doesn't exist!
+                    <a href="registration.html"> Register here.</a>
+                </div>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="form-control" aria-describedby="basic-addon1" >
+                <div id="wrongPasswordAlert" class="alert alert-primary collapse" role="alert">
+                    Wrong password!
+                </div>
+
+                <br>
+                <input type="button" name="submit" value="Submit" class="btn btn-primary">
+            </form>
+            <div id="loginAlert" class="alert alert-success collapse" role="alert"></div>
+            <br>
+            <div>Don't have an account? <a href="registration.html">Register here.</a></div>
+        </div>
+    </main>    
+    <footer>
+        <div class="line-hr wrapper"></div>
+        <div class="text wrapper">
+            <b>Copyright © 2020 AMS.</b>
+            <span>
+                The AMS is fictional news site. 
+                <a href="#">Our approach...</a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="setMainHeight.js"></script>
+    <script src="../data/validateLogin.js"></script>
+</body>
+</html>

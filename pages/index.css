@@ -1,0 +1,149 @@
+header{
+    position: relative; 
+    z-index: 10;
+}
+
+@media (max-width: 1081px){
+    h1{
+        font-size: 2rem;
+        top: 0.6rem;
+    }/*original, bootstrap css h1{size:2.5rem}*/
+}
+@media (max-width: 1289px){
+    nav li:last-of-type a{
+    padding: 12px 0 0 0;
+    }
+}
+
+/*-----------main---------------------------------*/
+main{
+    /*min-height: 800px;*/
+    padding-top: 20px;
+    padding-bottom: 148px;/*160*/
+    background-color: white;
+}
+
+.animated{
+    position: relative;
+    bottom: 20px;
+    width: 16%;
+    height: 2.5em;
+    border-radius: 0 0 83% 83%;
+    background-color: rgb(0, 36, 112);
+    color: rgb(226, 236, 255);
+    font-family: Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+    z-index: 3;
+    animation: 4s ease-out 0s 1 slideInFromTop;
+}
+.animated span{
+    position: relative;
+    top: 0.1em;
+    padding: 0 7px;
+}
+@media (max-width: 1400px){
+    .animated{
+    height: 4em;
+    }
+}
+
+
+time{
+    position: relative;
+    bottom: 36px;
+    float: right;
+    color: rgb(39, 39, 41);
+    font-size: 1.2em;
+}
+
+h3{
+    display: inline;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+section > a:link, section > a:visited, section > a:hover, section > a:active{
+    color: black;
+    text-decoration: none;
+ }
+
+section{
+    margin-top: 35px;
+}
+section .row{
+    margin-top: 12px;
+}
+h4{
+    margin: 20px 0 7px 0;
+    min-height: 2.4em;
+}
+
+.col{
+    padding: 0 18px;
+}
+
+/*two divs for img vertical alignment*/
+article > a > div{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+article > a > div > div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+    margin: auto;
+    overflow: hidden;
+}
+
+article p{
+    line-height: 135%;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+}
+
+article a:link, article a:visited, article a:hover, article a:active{
+   color: black;
+   text-decoration: none;
+}
+article a:hover h4{
+    color: rgba(0, 0, 0, 0.75);
+}
+article a:hover img{
+    transform: scale(1.1);
+}
+article img{
+    transition: transform .5s ease;
+}
+
+
+.line-vert{
+    display: inline-block;
+    width: 5px;
+    height: 1em;
+}
+    .yellow{
+        background-color: rgb(255, 238, 0);}
+    .red{
+        background-color: red;}
+    .green{
+        background-color: rgb(24, 136, 14);}
+    .blue{
+        background-color: blue;}
+
+/*-------animation-----*/
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    35% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,57 @@
+.buttons form{
+    display: contents;
+}
+.buttons{
+    max-width: 340px;
+    margin: 0 auto;
+}
+.buttons > button:first-of-type{
+    width: 49%;
+    margin-bottom: 5px;
+}
+.buttons form label{
+    float: right;
+    width: 49%;
+    margin-bottom: 5px;
+}
+input[name="changePic"] {
+    display: none;
+}
+
+.modal form{
+    margin: 10px;
+}
+.headline{
+    max-width: 500px;
+}
+.headline, .summary, textarea, select{
+    margin-bottom: 20px;
+}
+.custom-file{
+    margin: 15px 0 25px 0;
+}
+.checkboxArchive{
+    margin: 20px 0 40px 0;
+}
+
+form .alert{
+    position: relative;
+    bottom: 10px;
+    width: fit-content;
+}
+
+#noAccessAlert{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left:0; right:0;
+    top:110px; bottom:0;
+    margin: 0 auto;
+}
+
+.modalPic form{
+    padding-bottom: 10px;
+}
+.custom-file-input{
+    margin: 0 0 25px 0;
+}
