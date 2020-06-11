@@ -59,7 +59,7 @@ CREATE TABLE `users` (<br/>
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;<br/>
 
 INSERT INTO `users` (`id`, `name`, `surname`, `username`, `password`, `permissionId`) VALUES<br/>
-(5, 'Dylan Bartlett', 'Skinner', 'user', '$2y$10$zXLviOFq9.zZSS0UmzVyMe9Ln2gUGWtVDrOPzgAvy1ra3594Q9HL.', 2),<br/>
+(5, 'Neki', 'Tamo', 'user', '$2y$10$zXLviOFq9.zZSS0UmzVyMe9Ln2gUGWtVDrOPzgAvy1ra3594Q9HL.', 2),<br/>
 (45, 'admin', 'admin', 'admin', '$2y$10$nN48LPfAFC6VMjKDe7LYsejph0h26tJ8vieb9opAN7dnurBo51nAC', 1);<br/>
 -- user pass: user12<br/>
 -- admin pass: admin1<br/>

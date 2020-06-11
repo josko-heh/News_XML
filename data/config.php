@@ -5,3 +5,4 @@ return array(
     "password" => "",
     "database" => "news"
 );
+?>
