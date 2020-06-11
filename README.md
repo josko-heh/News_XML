@@ -6,7 +6,7 @@ If you want to set user to admin, it needs to be changed manually in DB (set per
 
 
 ### My database:<br/>
-![DB schema](https://github.com/josko-heh/test/blob/master/db_xml.png?raw=true)<br/>
+![DB schema](https://github.com/josko-heh/News_XML/blob/master/db_xml.png?raw=true)<br/>
 <br/>
 -- Database: `news`
 
