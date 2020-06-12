@@ -10,7 +10,9 @@ If you want to set user to admin, it needs to be changed manually in DB (set per
 ### My database:<br/>
 ![DB schema](https://github.com/josko-heh/News_XML/blob/master/db_xml.png?raw=true)<br/>
 <br/>
--- Database: `news`
+-- Database: `news`<br/>
+CREATE DATABASE IF NOT EXISTS `news` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `news`;<br/>
 
 -- Table structure for table `articlesxml`<br/>
 CREATE TABLE `articlesxml` (<br/>
