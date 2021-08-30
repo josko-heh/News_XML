@@ -1,7 +1,7 @@
 ## Simple news website.
 Changed for "XML programming" course. Original: https://github.com/josko-heh/News <br/>
 
-online: http://amsnews.eu5.org/pages/index.php <br/>
+[//]: # (online: http://amsnews.eu5.org/pages/index.ph)
 
 For site to work as intended you need to set up database and modify data/config.php file.<br/>
 If you want to set user to admin, it needs to be changed manually in DB (set permissionId to 1).
